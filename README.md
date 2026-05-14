@@ -48,7 +48,7 @@ cd ~/claude-dotfiles && chmod +x setup.sh && ./setup.sh
 
 # 3. Claude Code 세션에서 플러그인 설치
 /plugin marketplace add multica-ai/andrej-karpathy-skills
-/plugin install karpathy-guidelines@multica-ai/andrej-karpathy-skills --scope user
+/plugin install andrej-karpathy-skills@karpathy-skills --scope user
 /plugin install skill-creator@claude-plugins-official --scope user
 /reload-plugins
 ```
