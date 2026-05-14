@@ -1,0 +1,29 @@
+# Claude Code 프로젝트 로컬 설정 (디바이스/세션별)
+.claude/
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# setup.sh가 만드는 백업
+skills.backup.*
+
+# 렌더러 출력물 (필요시 개별 커밋)
+*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.idea/
+.vscode/
+*.swp
+*~
+
+# 로컬 환경 / 시크릿 (혹시 모를 누출 방지)
+.env
+.env.*
+*.local
